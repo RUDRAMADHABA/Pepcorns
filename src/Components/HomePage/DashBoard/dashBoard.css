@@ -1,0 +1,147 @@
+.hero-top-section {
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid #c2bdbd;
+}
+.dashboard-logo img {
+  width: 3rem;
+  margin: 1rem 1rem 0 0;
+}
+.logo-details p {
+  font-weight: 800;
+  font-size: 2rem;
+  color: #262424;
+}
+.logo-details span {
+  color: #878080;
+  font-weight: 600;
+}
+.hero-top-section-btns a {
+  padding: 0.6rem 1.2rem;
+  margin-left: 1rem;
+  color: blue;
+  border: 1px solid blue;
+}
+/* center */
+.hero-center-section{
+    padding: 0.8rem 0;
+gap: 1.5rem;
+flex-direction: column;
+align-items: flex-start;
+}
+.hashtag-wrapper span {
+  font-size: 0.7rem;
+  padding: 0.5rem 0.3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.hashtag1 {
+  background-color: rgb(204, 153, 253);
+}
+.hashtag2 {
+  color: blue;
+  background-color: rgb(241, 241, 179);
+}
+.description {
+  font-size: 1.45rem;
+  font-weight: 600;
+}
+.description-links a,
+.description-links span {
+  color: #878080;
+  margin-right: 1rem;
+}
+.video-wrapper {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 2fr 1fr;
+  border-bottom: 1px solid #c2bdbd;
+  border-top: 1px solid #c2bdbd;
+  margin-bottom: -1rem;
+}
+.video-description {
+  padding-right: 4rem;
+}
+.video-description div {
+  padding: 1rem 0;
+  border-bottom: 1px solid #c2bdbd;
+}
+.video-description div h3 {
+  font-size: 1.2rem;
+  color: #393535;
+}
+.video-description div span {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #5a5959;
+}
+.invest-now-btn {
+  display: block;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.9rem 8.4rem;
+  background-color: #000;
+}
+.video-description p {
+  text-align: center;
+  color: #898787;
+  margin-top: 0.7rem;
+}
+/* bottom  */
+.hero-bottom-section{
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 3rem 0 1rem ;
+    border-bottom: 1px solid #c2bdbd;
+}
+.hero-bottom-section-btn{
+    padding: 0.6rem 1.2rem;
+    font-weight: 500;
+    color: #5a5959;
+    border: 1px solid #000;
+    border-radius: 10rem;
+    transition: 0.5s;
+}
+.hero-bottom-section-btn.active ,.hero-bottom-section-btn:hover{
+    color: #fff;
+    background-color: #000;
+}
+@media screen and (max-width:1000px) {
+
+  .dashboard-logo img {
+    width: 2rem;
+  }
+  .logo-details p {
+    font-size: 1.5rem;
+  }
+  .hero-top-section-btns a {
+    padding: 0.4rem 0.7rem;
+  }
+  .hashtag-wrapper span {
+    font-size: 0.55rem;
+  }
+  .description {
+    font-size: 1.1rem;
+  }
+  .hero-bottom-section{
+    position: sticky;
+    top: 0;
+    overflow: scroll;
+  }
+  .hero-bottom-section-btn{
+    padding: 0.4 0.7rem;
+    font-size: 0.8rem;
+  }
+  .video-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .video-description {
+    padding-right: 0;
+  }
+  .invest-now-btn {
+    font-size: 1rem;
+    padding: 0.9rem 6.9rem;
+  }
+}

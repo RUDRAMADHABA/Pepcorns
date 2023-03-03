@@ -1,0 +1,7 @@
+.image-container{
+    border: 1px solid #c2bdbd;
+    flex-direction: column;
+}
+.image-container img{
+    object-fit: contain;
+}

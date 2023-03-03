@@ -1,0 +1,41 @@
+.homePage-container{
+    padding: 1.5rem;
+}
+
+.deck-info-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+/* //// */
+.documents{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.documents div{
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: flex-start;
+     border: 1px solid grey;
+}
+.documents p{
+font-weight: 500;
+}
+.documents a{
+    color: unset;
+}
+.documents a:hover{
+    color: blue;
+}
+@media screen and (max-width:1000px) {
+
+    .homePage-container{
+        padding: 0.5rem;
+    }
+    
+    .deck-info-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

@@ -1,0 +1,21 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border: 0;
+    outline: none;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+button{
+    cursor: pointer;
+}
